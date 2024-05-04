@@ -1,2 +1,2 @@
-# Paint-Web-GUI
-Color book style Website. Allows users to connect to database locally to add, delete, and edit colors. Also allows users to color cells, and print display of colored cells. 
+# CS312-Group
+Group Repository used to integrate our individual portions of the project 

@@ -1,0 +1,31 @@
+.members { /* Sets images and text content to be center of the page */
+    margin: 20px;
+    text-align: center;
+}#member-Info {
+    padding: -10px;
+}#member-Info h2 {
+    font-size: 30px;
+    margin-top: 1px;
+}#member-Info p {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    margin-bottom: 75px;
+}#member-Info img {
+    width: 300px;
+    height: 300px;
+}
+@media screen and (max-width: 600px) {
+    #member-Info img {
+        width: 150px;
+        height: 150px;
+    }#member-Info h2 {
+        font-size: 20px;
+    }#member-Info p {
+        width: 200px;
+        font-size: 10.5px;
+        margin-top: -10px;
+        margin-bottom: 40px;
+    }
+}

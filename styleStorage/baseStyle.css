@@ -1,0 +1,47 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #1E274D; /* basic header color, switch later once we decide on colors */
+    color: #FFD79E;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #333333; /* basic nav background color, switch later once we decide on colors */
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}nav a {
+    color: #FFD79E;
+    text-decoration: none;
+    padding: 10px;
+}
+
+body {
+    background-color: #C2C1C1; /* basic background color, switch later once we decide on colors */
+    margin: 0;
+    padding: 0;
+    margin-bottom: 200px;
+}
+footer {
+    background-color: #1E274D; /* basic footer color, switch later once we decide on colors */
+    color: #FFD79E;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        font-size: 10px;
+    }
+    nav {
+        font-size: 15px;
+    }
+}

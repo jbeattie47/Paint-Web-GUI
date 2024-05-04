@@ -1,0 +1,34 @@
+
+/*Grayscales the entire page*/
+body, table, img, .colorTable td, .colorSelectionTable td{
+    filter: grayscale(100%) !important;
+}
+
+/*Center text in cells*/
+.team_ID{
+    text-align: center;
+}
+
+.colorTable td:not(:first-child), .colorSelectionTable td:not(:first-child) {
+    padding: 5px;
+}.colorTable, .colorSelectionTable {
+    border-collapse: collapse; /*Cells share borders*/
+}.colorTable {
+    margin-top: 10px;
+    width: 100%;
+}.colorTable td, .colorSelectionTable td {
+    border: 1px solid #000;
+    text-align: center;
+}
+
+
+/*Ensures background is white with black text for entire page */
+body, html{
+    background: white;
+    color: black;
+}
+
+/* Remove any non black and white*/
+.colorTable td[style], .colorSelectionTable td[style]{
+    background-color: transparent !important;
+}
